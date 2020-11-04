@@ -1,10 +1,10 @@
 package bubble
 
 func Sort(arr []int) []int {
-	return bubbleSort(arr)
+	return bubbleSort1(arr)
 }
 
-func bubbleSort(arr []int) []int {
+func bubbleSort1(arr []int) []int {
 	for i := 0; i < len(arr)-1; i++ {
 		for j := len(arr) - 1; j > i; j-- {
 			//Copmare two numbers at the end of the sequence

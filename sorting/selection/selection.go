@@ -1,6 +1,6 @@
 package selection
 
-func sort(arr []int) []int {
+func Sort(arr []int) []int {
 	for i := 0; i < len(arr); i++ {
 		//intialize maxIndex to the first index of Unsorted part
 		minIndex := i
